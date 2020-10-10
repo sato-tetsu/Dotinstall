@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript Practice</title>
+	<meta charset="utf-8">
+	<style type="text/css" media="screen">
+		.box{
+			width: 100px;
+			height: 100px;
+			background-color: cyan;
+			cursor: pointer	;
+		}
+	</style>
+</head>
+<body>
+	<div class="box" id="target"></div>
+
+	<script>
+		'use strict';
+
+		document.getElementById('target').addEventListener('click', () => {
+			document.getElementById('target').style.background = 'pink'
+		});
+	</script>
+</body>
+</html>
