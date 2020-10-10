@@ -18,8 +18,13 @@
 	<script>
 		'use strict';
 
+		// document - ドキュメント全体を指す
+		// getElementById - 指定したIdの要素を取得
+		// add - 次の処理を追加
+		// EventListener - 何かが起きたら何らかの処理を実行する
 		document.getElementById('target').addEventListener('click', () => {
-			document.getElementById('target').style.background = 'pink'
+		  document.getElementById('target').style.background = 'pink';
+		  document.getElementById('target').style.borderRadius = '50%';
 		});
 	</script>
 </body>
