@@ -23,7 +23,16 @@
 
 	// console.log(Math.floor(Math.random() * 6) + 1);
 
-	const d = new Date();
+	// const d = new Date(2020, 10);
+	// // console.log(`${d.getMonth()+ 1} 月 ${d.getDate()} 日`)
+	// d.setHours(10, 20, 30);
+	// console.log(d);
 
-	console.log(`${d.getMonth()+ 1} 月 ${d.getDate()} 日`)
+	alert("hello");
+	const ans = confirm("削除しますか？");
+	if(ans){
+		console.log("削除しました");
+	}else{
+		console.log("削除しませんでした");
+	}
 }
