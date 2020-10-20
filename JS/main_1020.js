@@ -21,5 +21,9 @@
 
 	// console.log(Math.random());
 
-	console.log(Math.floor(Math.random() * 6) + 1);
+	// console.log(Math.floor(Math.random() * 6) + 1);
+
+	const d = new Date();
+
+	console.log(`${d.getMonth()+ 1} 月 ${d.getDate()} 日`)
 }
