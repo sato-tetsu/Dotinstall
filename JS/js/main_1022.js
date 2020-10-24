@@ -45,26 +45,26 @@
 	// }
 	// console.log("Finish");
 
-	class Post 
+	// class Post 
 
-	const posts = [
-		{
-			text: "勉強中",
-			likeCount: 0,
-			show: function(){
-				console.log(`${this.text} - ${this.likeCount}いいね`);
-			}
-		},{
-			text: "プログラミング",
-			likeCount: 0,
-			show(){
-				console.log(`${this.text} - ${this.likeCount}いいね`);
-			}
-		},
-	];
+	// const posts = [
+	// 	{
+	// 		text: "勉強中",
+	// 		likeCount: 0,
+	// 		show: function(){
+	// 			console.log(`${this.text} - ${this.likeCount}いいね`);
+	// 		}
+	// 	},{
+	// 		text: "プログラミング",
+	// 		likeCount: 0,
+	// 		show(){
+	// 			console.log(`${this.text} - ${this.likeCount}いいね`);
+	// 		}
+	// 	},
+	// ];
 
-	posts[0].show();
-	posts[1].show();
+	// posts[0].show();
+	// posts[1].show();
 
 
 }
