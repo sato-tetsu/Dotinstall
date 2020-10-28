@@ -25,4 +25,20 @@ $name = "sato";
 
 echo $text;
 
+
+echo 10 + 3 . PHP_EOL;
+echo 10 - 3 . PHP_EOL;
+echo 10 * 3 . PHP_EOL;
+echo 10 / 3 . PHP_EOL;
+echo 10 % 3 . PHP_EOL;
+echo 10 ** 3 . PHP_EOL;
+echo 2 + 10 * 3 . PHP_EOL;
+echo (2 + 10) * 3 . PHP_EOL;
+
+
+define('NAME', 'sato');
+const NAME = 'sato';
+
+echo NAME . PHP_EOL;
+
 ?>
