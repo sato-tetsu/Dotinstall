@@ -8,14 +8,8 @@ $name = "Sato";
 // echo "Hello World!!" . PHP_EOL;
 // echo "Sato" . PHP_EOL;
 
-// echo "Hello World!!" . PHP_EOL;
-// echo "Hi" . $name . PHP_EOL;
-// echo "Hi $name" . PHP_EOL;
-
-
-$text = <<<'EOT'
-hello!
-  this is looong
-EOT;
+echo "Hello World!!" . PHP_EOL;
+echo "Hi" . $name . PHP_EOL;
+echo "Hi $name" . PHP_EOL;
 
 ?>
