@@ -1,17 +1,21 @@
 <?php
 
-$name = 'Apple';
-$score = 32.246;
+$input = " dot_taguchi";
+$input = trim($input);
 
-$info = "[$name][$score]";
-echo $info . PHP_EOL;
+// echo strlen($input) . PHP_EOL;
+// echo strpos($input, "_") . PHP_EOL;
 
-$info = sprintf("[%15s][%10.2f]", $name, $score);
-echo $info . PHP_EOL;
+$input = str_replace("_", "-", $input);
+echo $input . PHP_EOL;
 
-$info = sprintf("[%-15s][%10.2f]", $name, $score);
-echo $info . PHP_EOL;
+$input = " こんにちは " . PHP_EOL;
+$input = trim($input);
 
-printf("[%-15s][%10.2f]", $name, $score);
+echo mb_strlen($input) . PHP_EOL;
+echo mb_strpos($inout, "に") . PHP_EOL;
+
+$input = str_replace("にち", "ばん", $input);
+echo $input . PHP_EOL;
 
 ?>
