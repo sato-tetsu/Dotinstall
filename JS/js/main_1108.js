@@ -16,7 +16,9 @@
     //   document.getElementById("target").classList.add("my-color");
     // };
 
-    targetNode.classList.toggle("my-color");
+    // targetNode.classList.toggle("my-color");
+
+    targetNode.textContent = targetNode.dataset.translation;
 
   });
 }
