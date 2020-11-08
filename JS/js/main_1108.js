@@ -18,7 +18,12 @@
 
     // targetNode.classList.toggle("my-color");
 
-    targetNode.textContent = targetNode.dataset.translation;
+    // targetNode.textContent = targetNode.dataset.translation;
 
+    const item2 = document.createElement("li");
+    item2.textContent = "item 2";
+
+    const ulNode = document.querySelector("ul");
+    ulNode.appendChild(item2);
   });
 }
