@@ -8,6 +8,15 @@
     //  targetNode.title = "this is title!";
     // targetNode.style.color = "red";
     // targetNode.style.backgroundColor = "black";
-    targetNode.className = "my-color my-border";
+    // targetNode.className = "my-color my-border";
+    // targetNode.classList.add("my-color");
+    // if (targetNode.classList.contains("my-color") === true){
+    //   document.getElementById("target").classList.remove("my-color");
+    // }else{
+    //   document.getElementById("target").classList.add("my-color");
+    // };
+
+    targetNode.classList.toggle("my-color");
+
   });
 }
