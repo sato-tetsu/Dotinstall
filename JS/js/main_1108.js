@@ -2,7 +2,7 @@
 
 {
   document.querySelector('button').addEventListener('click', () => {
-    const targetNode = document.getElementById("target");
+    // const targetNode = document.getElementById("target");
 
   	// targetNode.textContent = "Changed!";
     //  targetNode.title = "this is title!";
