@@ -7,5 +7,8 @@
 
     li.textContent = text.value;
     document.querySelector("ul").appendChild(li);
+
+    text.value =  "";
+    text.focus();
   });
 }
