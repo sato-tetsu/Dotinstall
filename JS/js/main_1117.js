@@ -25,7 +25,15 @@
   	console.log("One Click");
   });
 
-  document.addEventListener("mousemove" , () => {
-  	console.log("mouse move");
+  // document.addEventListener("mousemove" , () => {
+  // 	console.log("mouse move");
+  // });
+
+  document.addEventListener("mousemove" , e => {
+  	console.log(e.clientX, e.clientY);
   });
+
+  document.addEventListener("keydown", e => {
+  	console.log(e.key);
+  })
 }
