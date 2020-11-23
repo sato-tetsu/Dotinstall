@@ -4,6 +4,7 @@ body{
   padding: 0;
 }
 
+/*Chromeに表示される謎の青い線を消す記述*/
 *:focus {
 outline: none;
 }
