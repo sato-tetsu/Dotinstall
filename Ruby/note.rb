@@ -31,3 +31,16 @@ if x < 0 then
   else
 
 end
+
+# 標準入力 複数
+box = []
+while date = gets
+    box << date.split(" ").map(&:to_i)
+end
+
+# 配列へのアクセス
+x = box[0][0]   #0行目の0列目
+x = box[0][1]   #0行目の1列目
+x = box[1][1]   #1行目の0列目
+x = box[1][1]   #1行目の1列目
+
